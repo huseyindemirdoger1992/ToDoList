@@ -41,6 +41,6 @@ namespace ToDoList.Controllers
             db.Lists.Remove(silinecek);
             db.SaveChanges();
             return RedirectToAction("Listele");
-        }
+        } 
     }
 }
